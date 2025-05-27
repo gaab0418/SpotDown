@@ -65,7 +65,7 @@ Este projeto foi desenvolvido com o objetivo de:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/spotify-downloader-api.git
+   git clone https://github.com/gaab0418/SpotDown.git
    cd spotify-downloader-api
    ```
 
@@ -85,32 +85,32 @@ Este projeto foi desenvolvido com o objetivo de:
 4. Configure o arquivo `.env` na raiz do projeto:
    ```
    # Configuração do MySQL
-   MYSQL_HOST=localhost
-   MYSQL_PORT=3306
-   MYSQL_USER=root
-   MYSQL_PASSWORD=sua_senha
-   MYSQL_DATABASE=spotify_downloader
+   MYSQL_HOST=<host> # Exemplo: localhost
+   MYSQL_PORT=<porta> # Exemplo: 3306
+   MYSQL_USER=<usuario> # Exemplo: root
+   MYSQL_PASSWORD=<senha> # Exemplo: root
+   MYSQL_DATABASE=<banco_de_dados> # Exemplo: musicDb
    
    # Configuração JWT
-   JWT_SECRET_KEY=chave_secreta_aleatoria
+   JWT_SECRET_KEY=<chave> # Exemplo: He4l0W0rld
    
    # Configuração do Spotify
-   SPOTIFY_CLIENT_ID=seu_client_id
-   SPOTIFY_CLIENT_SECRET=seu_client_secret
-   SPOTIFY_REDIRECT_URI=http://127.0.0.1:8888/callback
+   SPOTIFY_CLIENT_ID=<client_id> # Exemplo: 123456789abcd0123456789abcd
+   SPOTIFY_CLIENT_SECRET=<client_secret> # Exemplo: 123456789abcd0123456789abcd
+   SPOTIFY_REDIRECT_URI=<redirect_uri> # Exemplo: http://127.0.0.1:8888/callback
    
    # Configuração da API
-   API_HOST=0.0.0.0
-   API_PORT=8801
+   API_HOST=<host> # Exemplo: 0.0.0.0
+   API_PORT=<porta> # Exemplo: 8801
    
    # Configuração de downloads
-   DOWNLOAD_PATH=./downloads
-   MAX_CONCURRENT_DOWNLOADS=3
+   DOWNLOAD_PATH=<caminho> # Exemplo: ./arqvs/download
+   MAX_CONCURRENT_DOWNLOADS=<limite> # Exemplo: 10
    ```
 
 5. Crie o banco de dados MySQL:
    ```sql
-   CREATE DATABASE spotify_downloader CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   CREATE DATABASE musicDb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
    ```
 
 6. Execute a aplicação:
@@ -176,7 +176,8 @@ spotify-downloader-api/
 ├── .env                   # Variáveis de ambiente (não versionado)
 ├── .env.example           # Exemplo de configuração
 ├── README.md              # Documentação do projeto
-└── CONTRIBUTING.md        # Guia de contribuição
+├── LICENSE.md             # Licença
+└── CODE_OF_CONDUCT.md.md  # Guia de contribuição
 ```
 
 ## Fluxo de Funcionamento
@@ -242,7 +243,7 @@ Este projeto demonstra diversos conceitos importantes:
 
 ## Contribuições
 
-Contribuições educacionais são bem-vindas! Por favor, leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para mais informações sobre como contribuir de forma educativa para este projeto.
+Contribuições educacionais são bem-vindas! Por favor, leia o arquivo [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) para mais informações sobre como contribuir de forma educativa para este projeto.
 
 ## Licença
 
