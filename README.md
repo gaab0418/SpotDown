@@ -1,3 +1,9 @@
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Educational Purpose](https://img.shields.io/badge/Purpose-Educational-blue.svg)]()
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?logo=fastapi)](https://fastapi.tiangolo.com)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 # Spotify Downloader API
 
 ⚠️ **AVISO IMPORTANTE: Este projeto é destinado EXCLUSIVAMENTE para fins educacionais e de aprendizado sobre Python e desenvolvimento de APIs. NÃO deve ser usado para download de conteúdo protegido por direitos autorais.**
@@ -178,6 +184,7 @@ spotify-downloader-api/
 ├── README.md              # Documentação do projeto
 ├── LICENSE.md             # Licença
 ├── CONTRIBUTING.md        # Contribuições educacionais
+├── SECURITY.md            # Informações de Segurança
 └── CODE_OF_CONDUCT.md.md  # Guia de contribuição
 ```
 
