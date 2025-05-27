@@ -177,6 +177,7 @@ spotify-downloader-api/
 ├── .env.example           # Exemplo de configuração
 ├── README.md              # Documentação do projeto
 ├── LICENSE.md             # Licença
+├── CONTRIBUTING.md        # Contribuições educacionais
 └── CODE_OF_CONDUCT.md.md  # Guia de contribuição
 ```
 
