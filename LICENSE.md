@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 [Seu Nome]
+Copyright (c) 2025 gaab0418
 
 AVISO: Este projeto é destinado exclusivamente para fins educacionais e de 
 aprendizado sobre desenvolvimento Python e APIs. NÃO deve ser usado para 
@@ -29,4 +29,5 @@ This software is provided for educational and learning purposes only. Users
 are responsible for ensuring their use complies with all applicable laws,
 regulations, and terms of service of third-party platforms. The authors do
 not encourage or condone the use of this software for downloading copyrighted
+
 content without proper authorization.
